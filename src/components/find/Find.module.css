@@ -1,0 +1,169 @@
+/* find row */
+
+.find_row_li {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  column-gap: 5px;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  min-height: 90px;
+}
+
+.find_row_img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: cover;
+}
+
+.find_row_h2,
+.find_row_p {
+  margin-left: 5px;
+  margin: 0px;
+}
+
+.find_row_more_info_button {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: min-content;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 35px;
+  background-color: var(--carolina-blue);
+  color: var(--font-secondary);
+}
+.find_row_more_info_button:hover,
+.button_search:hover {
+  background-color: var(--honey-yellow);
+}
+
+/* find card */
+
+.find_card_li {
+  display: grid;
+  width: 100%;
+  /* margin: 10px; */
+  list-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.find_card_img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.find_card_info_container {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.find_card_text_info {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+}
+
+.find_card_more_info {
+  display: flex;
+  align-items: center;
+}
+
+.find_card_h2,
+.find_card_p {
+  margin: 0px;
+}
+
+.find_card_more_info_button {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: min-content;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 35px;
+  background-color: var(--carolina-blue);
+  color: var(--font-secondary);
+}
+.find_card_more_info_button:hover,
+.button_search:hover {
+  background-color: var(--honey-yellow);
+}
+
+/* map find card */
+
+.map_card {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  list-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  z-index: 1;
+  width: 200px;
+  background-color: white;
+}
+
+.map_card_img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.map_card_info_container {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.map_card_text_info {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+}
+
+.map_card_more_info {
+  display: flex;
+  align-items: center;
+}
+
+.map_card_h2,
+.map_card_p {
+  margin: 0px;
+  font-size: 0.8rem;
+}
+
+.map_card_more_info_button {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: min-content;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 35px;
+  background-color: var(--carolina-blue);
+  color: var(--font-secondary);
+}
+.map_card_more_info_button:hover,
+.button_search:hover {
+  background-color: var(--honey-yellow);
+}

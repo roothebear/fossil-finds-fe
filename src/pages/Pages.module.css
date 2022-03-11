@@ -1,0 +1,105 @@
+.finds_main {
+  position: relative;
+}
+
+.finds_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finds_h1 {
+  margin-bottom: 15px;
+}
+
+.finds_nav {
+  display: flex;
+  padding: 10px;
+  background-color: var(--grey);
+  justify-content: right;
+  align-content: center;
+}
+
+.home_section {
+  min-height: 300px;
+}
+
+/* find */
+
+.find_header {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.comments_ul {
+  display: grid;
+  margin-bottom: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+.find_img_container {
+  display: flex;
+}
+
+.find_img {
+  margin-left: 30px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: cover;
+}
+
+.find_text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post_comment_li {
+  background-color: var(--grey);
+  display: grid;
+  justify-items: left;
+  margin: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 30px;
+  padding-right: 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+.post_comment_form {
+  padding: 0px;
+  width: 100%;
+}
+
+/* User profile */
+
+.user_profile_container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.user_profile_avatar {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+
+/* map find card */
+
+.map_find_card {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}

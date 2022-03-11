@@ -1,0 +1,5 @@
+.login_form {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}

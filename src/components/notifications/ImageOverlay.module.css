@@ -1,0 +1,36 @@
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(112, 112, 112, 0.795);
+  align-content: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.overlay_img_container {
+  width: 80%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.overlay_img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay_close_button {
+  background-color: transparent;
+  border: none;
+  font-weight: 800;
+  font-size: 2em;
+}

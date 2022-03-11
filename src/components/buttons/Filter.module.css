@@ -1,0 +1,15 @@
+.filter_menu {
+  width: 100%;
+  background-color: var(--dark-grey);
+  padding-bottom: 30px;
+}
+
+.filter_menu_section {
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}

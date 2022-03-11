@@ -1,0 +1,10 @@
+.login_form {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  text-align: center;
+}
+
+.login_input {
+  width: 80%;
+}
