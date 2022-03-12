@@ -20,12 +20,10 @@ export default function FindsMap({ finds }) {
     height: "60vh",
   };
 
-  // const originalCenter = {
-  //   lat: 53.745,
-  //   lng: 1.3,
-  // };
-
-  const [currentPosition, setCurrentPosition] = useState({});
+  const [currentPosition, setCurrentPosition] = useState({
+    lat: 53.745,
+    lng: 1.3,
+  });
 
   const success = (position) => {
     const currentPosition = {
@@ -37,10 +35,7 @@ export default function FindsMap({ finds }) {
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(success);
-  });
-
-
-
+  }, []);
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
@@ -65,7 +60,7 @@ export default function FindsMap({ finds }) {
         clickable={true}
         position={{ lat: find.latitude, lng: find.longitude }}
         key={find.find_id}
-        onClick={()=>createPopUp(find)}
+        onClick={() => createPopUp(find)}
       ></Marker>
     );
   });

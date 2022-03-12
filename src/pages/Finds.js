@@ -7,7 +7,7 @@ import Filter from "../components/buttons/Filter";
 import Search from "../components/inputs/Search";
 
 
-export default function Finds({ finds }) {
+export default function Finds({ finds, setFilterOptions, setSortByOptions }) {
   const [displayType, setDisplayType] = useState("icons");
   const [filtersDisplayed, setFiltersDisplayed] = useState(false);
   const [searchDisplayed, setSearchDisplayed] = useState(false);
@@ -52,12 +52,13 @@ export default function Finds({ finds }) {
           filter
         </button>
       </nav>
-      <Filter filtersDisplayed={filtersDisplayed} />
-      <Search searchDisplayed={searchDisplayed} />
-      <CollectionContainer
-        finds={finds}
-        displayType={displayType}
+      <Filter
+        filtersDisplayed={filtersDisplayed}
+        setFilterOptions={setFilterOptions}
+        sortByOptions={setSortByOptions}
       />
+      <Search searchDisplayed={searchDisplayed} />
+      <CollectionContainer finds={finds} displayType={displayType} />
     </main>
   );
 }

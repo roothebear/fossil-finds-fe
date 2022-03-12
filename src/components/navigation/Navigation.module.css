@@ -29,6 +29,8 @@
 .nav_button {
   padding-left: 20px;
   padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
   height: 40px;
   border: none;
   border-radius: 10px;
@@ -39,6 +41,24 @@
   background-color: var(--honey-yellow);
   color: white;
 }
+
+.nav_button_secondary_colour {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--oxford-blue);
+  color: var(--font-secondary);
+}
+
+.nav_button_secondary_colour:hover {
+  background-color: var(--honey-yellow);
+  color: white;
+}
+
 .nav_button_img {
   height: 40px;
   width: 40px;

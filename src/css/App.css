@@ -254,3 +254,16 @@ li {
   display: inline-block;
   font-size: 0.8rem;
 }
+
+
+/* Identification and camera */
+
+.App-camera{
+  /* display: none */
+  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.App-answer{
+  visibility: hidden
+}

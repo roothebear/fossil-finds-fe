@@ -4,6 +4,6 @@ import Find from "./Find";
 import UserProfile from "./UserProfile";
 import SignUp from "./SignUp";
 import AddFind from "./AddFind";
-import About from "./About";
+import Identify from "./Identify";
 
-export {Home, Finds, Find, UserProfile, SignUp, AddFind, About}
+export {Home, Finds, Find, UserProfile, SignUp, AddFind, Identify}

@@ -25,7 +25,7 @@ import {
   UserProfile,
   SignUp,
   AddFind,
-  About,
+  Identify,
 } from "./pages/index";
 
 import { LoggedInContext } from "./contexts/LoggedIn";
@@ -38,6 +38,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [loggedIn, setLoggedIn] = useState(false);
 
+
   // state - user
   const [user, setUser] = useState({});
   const [avatarUrl, setAvatarUrl] = useState(
@@ -48,6 +49,8 @@ function App() {
     );
 
   // state - finds, comments, locations
+    const [filterOptions, setFilterOptions] = useState({});
+    const [sortByOptions, setSortByOptions] = useState({});
   const [finds, setFinds] = useState([]);
     const [locations, setLocations] = useState([]);
 
@@ -116,11 +119,15 @@ function App() {
   // global use effects
   useEffect(() => {
     setIsLoading(true);
+
+    // set up the params string to use in Finds
+    // let paramsString = ""
+
     fetchFinds().then(({ finds }) => {
       setFinds(finds);
       setIsLoading(false);
     });
-  }, []);
+  }, [filterOptions, sortByOptions]);
 
     useEffect(() => {
       setIsLoading(true);
@@ -141,9 +148,18 @@ function App() {
           />
           <Routes>
             <Route path="/" element={<Home finds={finds} />} />
-            <Route path="/finds" element={<Finds finds={finds} />} />
+            <Route
+              path="/finds"
+              element={
+                <Finds
+                  finds={finds}
+                  setFilterOptions={setFilterOptions}
+                  sortByOptions={setSortByOptions}
+                />
+              }
+            />
             <Route path="/finds/:find_slug" element={<Find user={user} />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/identify" element={<Identify />} />
             <Route
               path="/user-profile"
               element={

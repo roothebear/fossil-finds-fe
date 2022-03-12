@@ -31,6 +31,13 @@ export default function Navigation({ avatarUrl, loginUser, logoutUser}) {
             </Link>
           </li>
           <li className={styles.nav_list_li}>
+            <Link to="/identify">
+              <button className={styles.nav_button_secondary_colour} alt="Go to identify find page">
+                Identify
+              </button>
+            </Link>
+          </li>
+          <li className={styles.nav_list_li}>
             <button className={styles.nav_profile_button} onClick={toggleMenu}>
               <img
                 className={styles.nav_button_img}

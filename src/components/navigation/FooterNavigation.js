@@ -24,11 +24,6 @@ export default function FooterNavigation() {
               <p className={styles.footer_p}>Explore finds</p>
             </Link>
           </li>
-          <li className={styles.nav_list_li}>
-            <Link to="/about">
-              <p className={styles.footer_p}>About</p>
-            </Link>
-          </li>
           <br />
           <li className={styles.nav_list_li}>
             <Link to="/user-profile">
@@ -38,6 +33,11 @@ export default function FooterNavigation() {
           <li className={styles.nav_list_li}>
             <Link to="/add-find">
               <p className={styles.footer_p}>Add Find</p>
+            </Link>
+          </li>
+          <li className={styles.nav_list_li}>
+            <Link to="/identify">
+              <p className={styles.footer_p}>Identify</p>
             </Link>
           </li>
           <br />
