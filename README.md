@@ -1,5 +1,3 @@
-![alt text](https://github.com/roothebear/fossil-finds-fe/public/images/fossil-finds-logo-480px-white.png "Fossil Finds Logo")
-
 # Fossil Finds Front End
 
 Fossil Finds is a web application allowing members of the public and researchers alike to search and contribute to a database of fossil finds in the UK. Fossil Finds Front End - the content of this repository - is the web application designed to interact with the back-end found in the repository Fossil-Finds-BE.  
@@ -12,7 +10,13 @@ Fossil Finds is a web application allowing members of the public and researchers
 
 [Click here to see the Fossil Finds Back-End repository](https://github.com/Roothebear/fossil-finds-be).
 
+<br />
+
 I built Fossil Finds as part of my time on the [Northcoders Software Development Bootcamp](https://northcoders.com/).  
+
+<br />
+
+---
 
 <br />
 
@@ -36,6 +40,8 @@ Minimum version recommended: Node v16.8.0
 ### Clone Repository
 To clone the repository for access on your local machine, run the following command in your terminal:
 
+<br />
+
 `git clone https://github.com/roothebear/fossil-finds-fe.git`
 
 <br />
@@ -43,7 +49,11 @@ To clone the repository for access on your local machine, run the following comm
 ### Install Dependencies
 Navigate to the folder to which the repository was cloned and run the following command in your terminal:
 
+<br />
+
 `npm install`
+
+<br />
 
 This will install all necessary dependencies used in the project, such as React, React-Router, and Axios.
 
@@ -54,14 +64,17 @@ To run the website on your local machine, run the following command in the termi
 
 In the project directory, you can run:
 
+<br />
+
 `npm start`
 
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes. You may also see any linting errors in the console.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br />
+
+---
 
 <br />
 
