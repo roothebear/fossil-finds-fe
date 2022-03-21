@@ -16,10 +16,6 @@ I built Fossil Finds as part of my time on the [Northcoders Software Development
 
 <br />
 
----
-
-<br />
-
 ## Local Development Set-Up
 
 The information below will give you all the information required to set up this project yourself.
@@ -71,10 +67,6 @@ In the project directory, you can run:
 <br />
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes. You may also see any linting errors in the console.
-
-<br />
-
----
 
 <br />
 
