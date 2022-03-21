@@ -1,8 +1,43 @@
-# Getting Started with Create React App
+# Fossil Finds Front End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fossil Finds is a web application allowing members of the public and researchers alike to search and contribute to a database of fossil finds in the UK. Fossil Finds Front End - the content of this repository - is the web application designed to interact with the back-end found in the repository Fossil-Finds-BE.
 
-## Available Scripts
+[Click here to access the web application] (https://fossil-finds.netlify.app/)
+
+[Click here to access the API] (https://fossil-finds.herokuapp.com/api)
+
+[Click here to see the Fossil Finds Back-End repository] (https://github.com/Roothebear/fossil-finds-be)
+
+I built Fossil Finds as part of my time on the Northcoders Software Development Bootcamp (https://northcoders.com/).
+
+
+## Local Development Set-Up
+
+The information below will give you all the information required to set up this project yourself.
+
+### Pre-requisites
+
+Install Node.js which acts as the runtime environment for this project. This should also install npm to manage all of the
+required dependencies.
+
+[Follow this link to download Node.js with npm]. (https://nodejs.org/en/download/current/)
+
+Minimum version recommended: Node v16.8.0
+
+### Clone Repository
+To clone the repository for access on your local machine, run the following command in your terminal:
+
+`git clone https://github.com/roothebear/fossil-finds-fe.git`
+
+### Install Dependencies
+Navigate to the folder to which the repository was cloned and run the following command in your terminal:
+
+`npm install`
+
+This will install all necessary dependencies used in the project, such as React, React-Router, and Axios.
+
+### Run Locally
+To run the website on your local machine, run the following command in the terminal:
 
 In the project directory, you can run:
 
@@ -14,57 +49,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+# Getting Started with Create React App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
