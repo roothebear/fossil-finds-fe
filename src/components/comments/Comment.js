@@ -9,7 +9,6 @@ export default function Comment({ comment, setCommentsByFindId, find_slug }) {
   const addLike = () => {
     if(!liked) {
       return patchCommentByCommentId(comment.comment_id, 1).then(()=>{
-        console.log("comment: ", comment)
         return fetchCommentsByFindId(find_slug).then(({comments})=>{
           setLiked(true)
           setCommentsByFindId(comments)

@@ -12,7 +12,6 @@ export default function SignUpForm({ createAccount }) {
 
   const handleSignUpFormSubmit = (event) => {
     event.preventDefault();
-    console.log("Form object submitted: ", signUpFormInputs);
     createAccount(signUpFormInputs);
     setSignUpFormInputs({});
   };

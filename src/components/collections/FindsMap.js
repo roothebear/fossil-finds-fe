@@ -8,7 +8,6 @@ export default function FindsMap({ finds }) {
   const [findSelected, setFindSelected] = useState("");
 
   const createPopUp = (find) => {
-    console.log("find: ", find);
     setFindSelected(find);
     setMapCardDisplayed((currState) => {
       return !currState;

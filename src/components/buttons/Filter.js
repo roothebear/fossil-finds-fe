@@ -5,7 +5,6 @@ export default function Filter({ filtersDisplayed, types, setFilterOptions, setS
   const handleClick = (truth, value) => {
     // set state of params string for fetch finds in App with things set to true
 
-    console.log(value);
 
     // setParamString(()=> {
     }

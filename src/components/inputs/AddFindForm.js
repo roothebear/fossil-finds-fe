@@ -10,11 +10,9 @@ export default function AddFindForm({ addFind, user }) {
 
   useEffect(() => {
     fetchTypes().then(({ types }) => {
-      console.log("types: ", types)
       setTypes(types);
     });
     fetchLocations().then(({ locations }) => {
-      console.log("locs: ", locations);
       setLocations(locations);
     });
   }, []);
@@ -49,7 +47,6 @@ export default function AddFindForm({ addFind, user }) {
     const name = event.target.name;
     const value = event.target.value;
     setAddFindFormInputs((values) => ({ ...values, [name]: value }));
-    console.log(addFindFormInputs)
   };
 
   const handleAddFindFormSubmit = (event) => {
@@ -60,7 +57,6 @@ export default function AddFindForm({ addFind, user }) {
       latitude: Number(addFindFormInputs.latitude),
       longitude: Number(addFindFormInputs.longitude),
     };
-    console.log("Form object submitted: ", newFind);
     addFind(newFind);
     setAddFindFormInputs({});
   };

@@ -63,12 +63,10 @@ function App() {
       if (existingUsers.includes(username)) {
         fetchUser(username)
           .then(({ user }) => {
-            console.log("user: ", user);
             setUser(user);
             return user;
           })
           .then(({ avatar_url }) => {
-            console.log("avatar: ", avatar_url);
             setAvatarUrl(avatar_url);
           });
         // update isLoggedIn to true

@@ -55,7 +55,6 @@ export default function Find({ user }) {
   const handleCommentFormSubmit = (event) => {
     event.preventDefault();
     if (loggedIn) {
-      console.log("Comment object submitted: ", commentFormInputs);
       postCommentByFindId(find.find_id, {
         body: commentFormInputs.comment,
         username: user.username,

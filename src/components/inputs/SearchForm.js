@@ -12,9 +12,6 @@ export default function SearchForm({ createAccount }) {
 
   const handlesearchFormSubmit = (event) => {
     event.preventDefault();
-    // console.log("Form object submitted: ", searchFormInputs);
-    // createAccount(searchFormInputs);
-    // setSearchFormInputs({});
   };
 
   return (

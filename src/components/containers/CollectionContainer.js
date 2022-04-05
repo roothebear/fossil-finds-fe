@@ -3,7 +3,6 @@ import FindsIcons from "../collections/FindsIcons";
 import FindsMap from "../collections/FindsMap";
 
 export default function CollectionContainer({finds, displayType, togglePopUp}) {
-  console.log("display object: ", displayType)
   if (displayType === "list") {
     return <FindsList finds={finds} />;
   } else if (displayType === "map") {
